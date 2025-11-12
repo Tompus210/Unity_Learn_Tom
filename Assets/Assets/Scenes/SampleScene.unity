@@ -429,7 +429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 478624420}
   - component: {fileID: 478624421}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Structure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,7 +488,7 @@ GameObject:
   - component: {fileID: 528804735}
   - component: {fileID: 528804734}
   - component: {fileID: 528804733}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -883,7 +883,7 @@ Transform:
   m_GameObject: {fileID: 791130552}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.8, z: 0}
+  m_LocalPosition: {x: 0, y: -0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1058,7 +1058,7 @@ GameObject:
   - component: {fileID: 886722103}
   - component: {fileID: 886722102}
   - component: {fileID: 886722101}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1166,7 +1166,7 @@ GameObject:
   - component: {fileID: 989043880}
   - component: {fileID: 989043879}
   - component: {fileID: 989043878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1385,7 +1385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1095283405}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plinth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1420,7 +1420,7 @@ GameObject:
   - component: {fileID: 1282956823}
   - component: {fileID: 1282956822}
   - component: {fileID: 1282956821}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1890,10 +1890,11 @@ MonoBehaviour:
   jumpHeight: 1.5
   cameraTransform: {fileID: 330585546}
   groundCheck: {fileID: 791130553}
-  groundCheckRadius: 0.3
+  groundCheckRadius: 0.35
   groundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
+  isGrounded: 0
 --- !u!1 &1791555922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1906,7 +1907,7 @@ GameObject:
   - component: {fileID: 1791555926}
   - component: {fileID: 1791555925}
   - component: {fileID: 1791555924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2474,7 +2475,7 @@ GameObject:
   - component: {fileID: 1956621272}
   - component: {fileID: 1956621271}
   - component: {fileID: 1956621270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2580,7 +2581,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2034865519}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2618,7 +2619,7 @@ GameObject:
   - component: {fileID: 2099106280}
   - component: {fileID: 2099106279}
   - component: {fileID: 2099106278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

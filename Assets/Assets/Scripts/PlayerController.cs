@@ -20,7 +20,9 @@ public class PlayerController : MonoBehaviour
     CharacterController controller;
     float turnSmoothVelocity;
     Vector3 velocity;
+    [SerializeField] 
     bool isGrounded;
+
 
     void Awake()
     {
