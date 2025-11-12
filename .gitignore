@@ -1,0 +1,60 @@
+# ===================== #
+# Unity generated files #
+# ===================== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+ScriptAssemblies/
+*.csproj
+*.sln
+*.unityproj
+*.pidb
+*.user
+*.booproj
+*.svd
+
+# Cache & auto-generated content
+[Pp]ackages/com.unity.package-manager.cache/
+*.tmpproj
+
+# ===================== #
+# iOS / Xcode build     #
+# ===================== #
+*.xcworkspace/
+*.xcodeproj/
+*.xcuserstate
+*.xcuserdata/
+*.xcconfig
+*.pbxproj
+DerivedData/
+Pods/
+Podfile
+Podfile.lock
+Build/
+Builds/
+*/Build/
+*/Builds/
+
+# ===================== #
+# OS / Editor / IDE     #
+# ===================== #
+.DS_Store
+.vscode/
+.idea/
+*.userprefs
+
+# ===================== #
+# Unity Asset Store tools (optional) #
+# ===================== #
+Assets/AssetStoreTools*
+
+# ===================== #
+# Crash / Reports       #
+# ===================== #
+sysinfo.txt
+
